@@ -1,0 +1,27 @@
+h1 {
+    color: orange;
+    text-align: center;
+    margin: 40px;
+}
+
+header {
+    text-align: right;
+
+}
+
+h2 {
+    color: green;
+}
+div {
+    border: 2px solid black;
+}
+div > p {
+    padding: 0px 0px 0px 40px;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+
+}
+
+.underlined {
+    text-decoration: underline;
+}

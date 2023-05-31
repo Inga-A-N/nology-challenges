@@ -24,4 +24,5 @@ div > p {
 
 .underlined {
     text-decoration: underline;
+    font-style: italic;
 }

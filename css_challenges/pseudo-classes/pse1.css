@@ -1,0 +1,26 @@
+form {
+    text-align: center;
+    
+}
+
+form input {
+    margin: 5px;
+    border-radius: 5px;
+}
+input:enabled {
+    background-color: lightblue;
+}
+
+input:required {
+    border: 3px solid red;
+}
+
+input:nth-last-of-type(2) {
+    color: rgb(82, 80, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input:last-of-type {
+    font-family: Arial;
+}

@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 300px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    /* margin: 0; */
+    background-color: lightblue;
+    width: calc(100%/3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}

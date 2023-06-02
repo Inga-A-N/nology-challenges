@@ -1,0 +1,42 @@
+.border {
+  border: 2px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.border ul {
+  list-style-type: none;
+}
+.border--green {
+  border: 3px dashed green;
+}
+.border--coral {
+  border: 2px solid coral;
+  margin-bottom: 80px;
+}
+.border--coral h2 {
+  text-align: center;
+}
+.border__line {
+  color: blue;
+  text-decoration: line-through;
+}
+.border__line--right {
+  text-align: end;
+}
+.border--blue-heading h2 {
+  color: blue;
+}
+.border--blue-heading p {
+  color: red;
+  text-decoration: underline;
+}
+
+.brown {
+  color: brown;
+}
+
+.coral {
+  color: coral;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */

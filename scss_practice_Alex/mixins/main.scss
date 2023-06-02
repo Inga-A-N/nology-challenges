@@ -1,0 +1,16 @@
+@use "./mixins.scss";
+
+.centered {
+    @include mixins.centered;
+    &--button {
+        background-color: lightgray;
+    }
+    &--chip {
+        border: 3px solid blue;
+    }
+    &--pill {
+        border: 3px dashed blue;
+        }
+    
+    
+}

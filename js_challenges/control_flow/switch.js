@@ -40,7 +40,7 @@ switch(dayNumber){
         console.log("Today is Sunday");
         break;
     default:
-        console.log("Please enter a positiv integer.")
+        console.log("Please enter a positive integer.")
 }
 
 // Challenge: Eye Colour

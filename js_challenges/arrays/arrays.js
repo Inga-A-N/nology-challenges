@@ -8,7 +8,7 @@ const hobbies = ["dancing", "singing", "sewing"];
  const firstHobby = hobbies.shift();
  const hobbiesLength = hobbies.length;
  hobbies.push("diving");
-console.log(hobbies[hobbiesLength - 1]);
+console.log(hobbies[hobbies.length - 1]);
 const myHobbies = `My hobbies are: ${hobbies.join(", ")}`;
 console.log(myHobbies);
 

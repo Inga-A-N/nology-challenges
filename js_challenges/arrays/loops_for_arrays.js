@@ -41,16 +41,16 @@ sumNumbers()
 
 const groceries = ['milk', 'watermelon', 'eggs', 'soap', 'butter', 'apples', 'ice-cream'];
 
-function groceriesList(){
-    for (let i = 0; i < groceries.length; ++i){
-        console.log(i+1 + `. ${groceries[i]}`)
+function groceriesList(arr){
+    for (let i = 0; i < arr.length; ++i){
+        console.log(i+1 + `. ${arr[i]}`)
     }
 }
 
-groceriesList()
+groceriesList(groceries)
 
 // Challenge: Capitalizing Odd Positioned Letters
-// MVP Create a variable with a string of your choice Loop through the letters in this string and build a new string If the current index is odd, capitalize the letter before adding it to the new string Bonus If the current index is even increment the letter E.g: a becomes b, d becomes e, t becomes u Final: z becomes a
+// MVP Create a variable with a string of your choice Loop through the letters in this string and build a new string If the current index is odd, capitalize the letter before adding it to the new string. Bonus If the current index is even increment the letter E.g: a becomes b, d becomes e, t becomes u Final: z becomes a
 
 // Challenge: Removing Vowels
 // MVP Create a variable with a string of your choice Loop through the letters in this and build a new string The new strings should be the same as the input with the vowels missing

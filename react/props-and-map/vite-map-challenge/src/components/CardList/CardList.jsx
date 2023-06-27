@@ -1,6 +1,7 @@
 import style from './CardList.module.scss'
 import Card from '../Card/Card'
 
+
 const CardList = ({planets}) => {
 
     return (

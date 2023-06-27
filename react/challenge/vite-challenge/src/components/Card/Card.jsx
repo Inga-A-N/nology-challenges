@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Card.module.scss';
+import pic from './Spencer-Lake-Australia.jpg'
 
 
 const Card = ({ heading, content, subtitle, hasButton }) => {
@@ -7,7 +8,7 @@ const Card = ({ heading, content, subtitle, hasButton }) => {
   return (
     
     <article className={styles.card}>
-      <img src={"./Spencer-Lake-Australia.jpg"} />
+      <img src={pic} alt='Picture'/>
       <h3 className={styles.heading}>{heading}</h3>
       <h4>{subtitle}</h4>
       <p>{content}</p>

@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    padding: 0.25em;
+    color: white;
+    background-color: black;
+    img {
+      width: 90%;
+    }
+  }
+  .grey__background {
+    color: black;
+    background-color: gray;
+  }

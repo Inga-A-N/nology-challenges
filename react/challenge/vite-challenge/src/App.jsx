@@ -1,12 +1,17 @@
 import Header from './components/Header/Header';
 import Card from './components/Card/Card';
+import Main from './components/Main/Main'
 
 
 const App = () => {
   return (
     <>
+    
     <main>
-    <h1>Hello</h1>
+    <Main>
+      
+    </Main>
+    
     <Header heading='React challenge' subheading='This is our first React Challenge'/>
     
     <div>

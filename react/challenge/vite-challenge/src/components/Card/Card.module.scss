@@ -1,18 +1,29 @@
-div {
-    display: flex;
-    width: 100 vw;
 
+  body {
 
-.card {
-    box-shadow: 3px 3px 5px lightgrey;
-    border-radius: 10px;
-    width: 200px;
-    margin: 1em;
-    padding: 0.5em;
-    text-align: center;
-  }
+    justify-content: center;
+    
   
-  .heading {
-    color: #1ba31b;
+  div {
+      display: flex;
+      width: 100 vw;
+
+
+  .card {
+      box-shadow: 3px 3px 5px lightgrey;
+      border-radius: 10px;
+      width: 200px;
+      margin: 1em;
+      padding: 0.5em;
+      text-align: center;
+
+      img {
+        width: 90%;
+      }
+    }
+    
+    .heading {
+      color: #1ba31b;
+    }
   }
 }

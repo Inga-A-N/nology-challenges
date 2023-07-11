@@ -1,0 +1,11 @@
+.btn {
+  padding: 10px;
+  &_light {
+    color: black;
+    background-color: white;
+  }
+  &_dark {
+    color: black;
+    background-color: orange;
+  }
+}

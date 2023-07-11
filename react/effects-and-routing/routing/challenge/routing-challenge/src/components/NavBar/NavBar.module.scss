@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  padding: 1em;
+  gap: 1em;
+  border: 3px solid greenyellow;
+
+  .link {
+    padding: 1em;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

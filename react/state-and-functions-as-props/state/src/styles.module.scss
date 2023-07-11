@@ -1,0 +1,22 @@
+.button {
+    color: black;
+    background-color: white;
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+        height: 5em;
+    }
+
+    button {
+        margin: 2em;
+    }
+
+    &.dark {
+        color: white;
+        background-color: black;
+    }
+}

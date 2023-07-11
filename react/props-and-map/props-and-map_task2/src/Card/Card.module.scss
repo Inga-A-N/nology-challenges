@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  font-size: larger;
+  color: white;
+  text-shadow: 0px 0px 4px black;
+  //   background: url(./Apocalyptica_Shadowmaker_album_cover.jpg);
+}
+.topRating {
+  background-color: red;
+}

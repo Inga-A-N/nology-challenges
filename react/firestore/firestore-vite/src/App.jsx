@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <h1>Firestore</h1>
-      <MovieList />
+      <MovieList movies={retrievedMovies} />
       <NewMovieForm />
     </>
   );

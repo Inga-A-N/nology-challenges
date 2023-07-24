@@ -44,11 +44,11 @@ public class Animal {
 		}
 		
 		public void setName(String newName) {
-			newName = this.name;
+			this.name = newName;
 		}
 		
 		public void setSound(String newSound) {
-			newSound = this.sound;
+			this.sound = newSound;
 		}
 
 	}

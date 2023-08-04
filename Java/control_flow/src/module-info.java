@@ -4,5 +4,5 @@
 /**
  * 
  */
-module control_flow {
+module Minesweeper {
 }

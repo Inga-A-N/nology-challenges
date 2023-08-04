@@ -53,7 +53,7 @@ public class Main {
 	
 	int initial = 1;
 
-	// Use for loops to fill this multi dimensional array with incremented values
+	// Use for loops to fill this multidimensional array with incremented values
 	
 	for (int i = 0; i < fourDArray.length; i++) {
 	    for(int j = 0; j< fourDArray[0].length; j++) {
@@ -67,9 +67,20 @@ public class Main {
 		    }
 		}
 	    }
-	     
+	       
 	}
+	System.out.println(Arrays.deepToString(fourDArray));
 	
+	for (int i = 0; i < a; i++) {
+		for (int j = 0; j < b; j++) {
+			for (int k = 0; k < c; k++) {
+				for (int l = 0; l < d; l++) {
+				
+				}
+			}
+		}
+	}
+
 	for (int[][][] threeDArray : fourDArray) {
 		for (int[][] twoDArray : threeDArray) {
 			for (int[] oneDArray : twoDArray) {
@@ -77,7 +88,7 @@ public class Main {
 			}
 		}
 	}
-	
+
     }
 
 }

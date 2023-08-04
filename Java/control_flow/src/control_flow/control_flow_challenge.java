@@ -67,8 +67,7 @@ public class control_flow_challenge {
 //			
 //		};
 		
-////		scan.close();
-////		
+	
 //		for (int i = 0; i < 10; i++) {
 //			if (i==2) {continue;}
 //			if (i == 8) {
@@ -275,6 +274,6 @@ public class control_flow_challenge {
 		
 		
 	}
-
+scan.close();
 }
 }

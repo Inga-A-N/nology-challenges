@@ -8,9 +8,9 @@ public class input {
 		// TODO Auto-generated method stub
 
 		Scanner s = new Scanner(System.in);
-		System.out.print("Please enter your name");
+		System.out.println("Please enter your name");
 		String name = s.nextLine();
-		System.out.println("Hello" + name);
+		System.out.println("Hello " + name);
 		s.close(); //need to close to avoid memory leak
 		
 	}
